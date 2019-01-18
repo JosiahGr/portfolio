@@ -1,0 +1,23 @@
+@import 'vars';
+// // @import 'mixins';
+* {
+  font-weight: 100;
+}
+
+html {
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: $off-white;
+}
+
+a:hover {
+  color: $light-blue;
+}
