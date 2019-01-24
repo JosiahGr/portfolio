@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
         <section id='portfolio'>
           <h2>Portfolio</h2>
           <p className='divider'>______</p>
-          <div className='redeeming-soles' onClick={() => this.setState({ redeemingSoles: true })}>
+          <div className='redeeming-soles card' onClick={() => this.setState({ redeemingSoles: true })}>
             <h4>redeemingSoles</h4>
             <img className='redeeming-soles-pic' src={redeemingSolesPic} />
             <p>React | Redux | MongoDB</p>
