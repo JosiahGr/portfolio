@@ -1,0 +1,115 @@
+@import '../../style/vars';
+
+.landing {
+  width: 100%;
+}
+section {
+  width: 100%;
+  background-color: $dark-slate;
+  padding-top: 20px;
+  // text-align: center;
+  overflow: auto;
+
+  h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  img {
+    height: 150px;
+  }
+}
+
+#intro {
+  background-color: $dark-slate;
+  background-image: url('../../assets/mt-rainier1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;  
+  min-height: 190px;
+  text-align: center;
+  padding-top: 5%;
+
+  h3 {
+    line-height: .75 !important;
+  }
+
+  h4 {
+    line-height: .75 !important;
+  }
+
+  @media (min-width: 660px) {
+    height: 300px;
+
+    h2 {
+      margin: auto, auto;
+      font-size: 2em;
+    }
+  
+    h3 {
+      font-size: 1.5em;
+    }
+  
+    h4 {
+      font-size: 1.25em;
+      line-height: 25%;
+    }
+  }
+
+  @media (min-width: 900px) {
+      height: 400px;
+  }
+}
+
+.footer {
+  height: 50px;
+  background-color: black;
+  background: $dark-slate;
+  text-align: center;
+  padding-top: 15px;
+  color: $off-white;
+    p {
+      margin-top: 0;
+    }
+}
+
+#contact {
+  background:$dark-blue;
+  color: $off-white;
+  min-height: 350px;
+  text-align: center;
+
+  a {
+    color: $light-blue; 
+  }
+
+  .contact-links {
+    display: inline-block;
+  }
+
+  svg {
+    height: 15%;
+    width: 15%;
+  }
+
+  img {
+    height: 115px;
+  }
+
+  svg:hover {
+    opacity: .75;
+  }
+
+  img:hover {
+    opacity: .75;
+  }
+
+  .contact-links * {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+}
+
+.divider {
+  text-align: center;
+}
