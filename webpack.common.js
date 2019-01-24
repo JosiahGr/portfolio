@@ -13,7 +13,7 @@ webpackConfig.output = {
 
 webpackConfig.plugins = [
   new HtmlWebpackPlugin({
-    title: 'Carl Olson | Portfolio',
+    title: 'Josiah Green | Portfolio',
   }),
 ];
 
