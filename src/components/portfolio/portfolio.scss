@@ -19,7 +19,7 @@
     opacity: .75;
     box-shadow: 10px 10px 10px $dark-blue;
     overflow: auto;
-    min-width: 240px;
+    min-width: 200px;
     text-align: center;
   }
   
@@ -56,6 +56,14 @@
   }
 
   .regret-nothing-pic {
+    border-radius: 10%;
+  }
+
+  .redeeming-soles-pic {
+    border-radius: 10%;
+  }
+
+  .ppa-pic {
     border-radius: 10%;
   }
   
