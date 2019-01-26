@@ -21,13 +21,12 @@ section {
 }
 
 #intro {
-  background-color: $dark-slate;
   background-image: url('../../assets/codeBackground.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;  
-  min-height: 190px;
+  background-size: 100%;
+  min-height: 36em;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 0%;
 
   h3 {
     line-height: .75 !important;
