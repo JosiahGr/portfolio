@@ -6,29 +6,25 @@
   top: 0;
   width: 100%;
   height: 50px;
-  background: $dark-slate;
-  z-index: 8;
 }
 
 nav {
   font-family: 'Lato', sans-serif;
 
   #nav-right {
-    padding-left: 75%;
     margin: 0;
   }
 
   #nav-left {
     float: left;
     padding-left: 2%;
-    padding-top: .25%;
+    margin-bottom: .8%;
   }
 
   a {
     display: inline-block;
     text-decoration: none;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 4%;
   }
 
   p {
