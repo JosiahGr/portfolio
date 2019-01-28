@@ -18,7 +18,7 @@ class AboutMe extends React.Component {
               </p>
 
 <p>I really love that coding is challenging and there is always something new to learn and to create. It’s the same reasons why I love art. You get to start with nothing and have a fully functioning, tangible object. I've continued my pursuit of creation by expoloring software development and, by doing so, challenging myself in a whole new world.</p>{/* eslint-disable-line */}
-            <p>You can take a look at some of my previous and recent works <a href='https://www.JSGart.com' target='_blank'>here</a>.</p>{/* eslint-disable-line */}            
+            <p>You can take a look at some of my previous and recent works <a href='https://www.JSGart.com' target='_blank'>here</a>.</p>           
             
           </div>
         </section>
