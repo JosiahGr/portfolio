@@ -8,7 +8,6 @@ import gitHubImage from '../../assets/github-cat.png';
 import LinkedInImage from '../../assets/linkedIn.svg';
 
 import './landing.scss';
-import './landingAnimation.scss';
 
 class Landing extends React.Component {
   render() {
@@ -25,7 +24,7 @@ class Landing extends React.Component {
                 
                 <ul className="content__container__list">
                   <li className="content__container__list__item">Green</li>
-                  <li className="content__container__list__item">Artist</li>
+                  <li className="content__container__list__item">Illustrator</li>
                   <li className="content__container__list__item">Designer</li>
                   <li className="content__container__list__item">Developer</li>
                 </ul>
