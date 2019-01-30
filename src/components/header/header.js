@@ -2,7 +2,7 @@ import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './header.scss';
 
-import logo from '../../assets/JGLogo.png';
+// import logo from '../../assets/JGLogo.png';
 
 class Header extends React.Component {
   render() {
@@ -21,7 +21,7 @@ class Header extends React.Component {
           <span></span>
           <span></span>
           <ul id="menu">
-          <AnchorLink href='#home'><li>Home</li></AnchorLink>
+          <AnchorLink href='#intro'><li>Home</li></AnchorLink>
           <AnchorLink href='#about'><li>About</li></AnchorLink>
           <AnchorLink href='#portfolio'><li>Portfolio</li></AnchorLink>
           <AnchorLink href='#contact'><li>Contact</li></AnchorLink>
