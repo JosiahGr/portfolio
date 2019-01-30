@@ -34,17 +34,19 @@ class Landing extends React.Component {
                 <p>&darr;</p>
             </div>
           </section>
-            {/* <AboutMe /> */}
             <Portfolio />
+            {/* <AboutMe /> */}
             <section id='contact'>
-              <h2>Contact</h2>
-              <p className='divider'>______</p>
-              <h4>Contact me at</h4>
-              <h3><a href="mailto:josiahgreen90@gmail.com">josiahgreen90@gmail.com</a></h3>
-              <div className='contact-links'>
+              <h3>LET'S GET IN TOUCH.</h3>
+              <p className='divider'>___</p>
+              <h4>JOSIAH GREEN</h4>
+              <h5><a href="mailto:josiahgreen90@gmail.com">josiahgreen90@gmail.com</a></h5>
+              <h5><a href="https://github.com/josiahGr">GitHub</a></h5>
+              <h5><a href='https://www.linkedin.com/in/josiah-green/'>LinkedIn</a></h5>
+              {/* <div className='contact-links'>
               <a href='https://github.com/josiahGr' target='_blank' rel='noopener noreferrer'><img src={gitHubImage} /></a>
                 <a href='https://www.linkedin.com/in/josiah-green/' target='_blank' rel='noopener noreferrer'><LinkedInImage /></a>
-              </div>   
+              </div>    */}
             </section>
         </div>
         <footer className='footer'>

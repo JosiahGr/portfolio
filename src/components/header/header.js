@@ -8,18 +8,32 @@ class Header extends React.Component {
   render() {
     return (
       <header className='header'>
-      <nav>
+      {/* <nav>
         <div id='nav-left'>
           <AnchorLink href='#intro'>
             <img className='jg-logo-pic' src={logo} />
           </AnchorLink>
+        </div> */}
+        <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+          <AnchorLink href='#home'><li>Home</li></AnchorLink>
+          <AnchorLink href='#about'><li>About</li></AnchorLink>
+          <AnchorLink href='#portfolio'><li>Portfolio</li></AnchorLink>
+          <AnchorLink href='#contact'><li>Contact</li></AnchorLink>
+          </ul>
         </div>
-        <ul id='nav-right'>
-          <AnchorLink href='#about'><p>About</p></AnchorLink>
-          <AnchorLink href='#portfolio'><p>Portfolio</p></AnchorLink>
-          <AnchorLink href='#contact'><p>Contact</p></AnchorLink>
-        </ul>
       </nav>
+        {/* <ul id='nav-right'>
+          <AnchorLink href='#about'><li>About</li></AnchorLink>
+          <AnchorLink href='#portfolio'><li>Portfolio</li></AnchorLink>
+          <AnchorLink href='#contact'><li>Contact</li></AnchorLink>
+        </ul>
+      </nav> */}
     </header>
     );
   }
