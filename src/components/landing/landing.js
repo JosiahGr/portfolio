@@ -8,6 +8,7 @@ import gitHubImage from '../../assets/github-cat.png';
 import LinkedInImage from '../../assets/linkedIn.svg';
 
 import './landing.scss';
+import './landingAnimation.scss';
 
 class Landing extends React.Component {
   render() {
@@ -15,11 +16,22 @@ class Landing extends React.Component {
       <div className='landing-page'>
         <Header />
         <div className='main-section'>
-            <section id='intro'>
-              <h2>Josiah Green</h2>
-              <h3>Full Stack Software Developer</h3>
-              <h4>Shoreline, WA</h4>
-            </section>
+          <section id='intro'>
+            <div className="content">
+              <div className="content__container">
+                <p className="content__container__text">
+                  Josiah
+                </p>
+                
+                <ul className="content__container__list">
+                  <li className="content__container__list__item">Green</li>
+                  <li className="content__container__list__item">Artist</li>
+                  <li className="content__container__list__item">Designer</li>
+                  <li className="content__container__list__item">Developer</li>
+                </ul>
+              </div>
+            </div>
+          </section>
             <AboutMe />
             <Portfolio />
             <section id='contact'>
