@@ -29,9 +29,12 @@ class Landing extends React.Component {
                   <li className="content__container__list__item">Developer</li>
                 </ul>
               </div>
+              </div>
+              <div className="downArrow bounce">
+                <p>&darr;</p>
             </div>
           </section>
-            <AboutMe />
+            {/* <AboutMe /> */}
             <Portfolio />
             <section id='contact'>
               <h2>Contact</h2>
