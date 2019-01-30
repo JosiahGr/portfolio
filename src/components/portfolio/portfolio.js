@@ -22,13 +22,11 @@ class Portfolio extends React.Component {
     return (
       <div>
         <section id='portfolio'>
-          <h2>Portfolio</h2>
-          <p className='divider'>______</p>
-          <div className='redeeming-soles card' onClick={() => this.setState({ redeemingSoles: true })}>
-            <h4>Redeeming Soles</h4>
-            <img className='redeeming-soles-pic' src={redeemingSolesPic} />
-            <p> React | Redux | MongoDB </p>
-            <p>___________________________</p>
+          <div className='redeeming-soles card1' onClick={() => this.setState({ redeemingSoles: true })}>
+            <span className="step">1</span>
+            <p className='projectName'>Redeeming Soles</p>
+            <p className='projectNameBorder'>_</p>
+            <p className='projectNameBorderCont'>_______________________________________</p>
           </div>
           <Modal
             show={this.state.redeemingSoles}
@@ -44,11 +42,11 @@ class Portfolio extends React.Component {
             <h4><a href='https://redeeming-soles-front.herokuapp.com/' target='_blank'>GitHub</a></h4>
             </div>
           </Modal>
-          <div className='regret-nothing card' onClick={() => this.setState({ regretNothing: true })}>
-            <h4>Regret Nothing</h4>
-            <img className='regret-nothing-pic' src={regretNothingPic} />
-            <p>jQuery | SQL | Express</p>
-            <p>______________________</p>
+          <div className='regret-nothing card2' onClick={() => this.setState({ regretNothing: true })}>
+          <span className="step">2</span>
+            <p className='projectName'>Regret Nothing</p>
+            <p className='projectNameBorder'>_</p>
+            <p className='projectNameBorderContGr'>_______________________________________</p>
           </div>_
           <Modal
             show={this.state.regretNothing}
@@ -63,11 +61,11 @@ class Portfolio extends React.Component {
             <h4><a href='https://github.com/4betterOrWorse/4betterOrWorse.github.io' target='_blank'>GitHub</a></h4>
             </div>
           </Modal>
-          <div className='devPop card' onClick={() => this.setState({ devPop: true })}>
-            <h4>&lt;dev&gt;Pop</h4>
-            <img className='devPop-pic' src={devPopPic} />
-            <p>Vanilla Javascript</p>
-            <p>_______________________</p>
+          <div className='devPop card1' onClick={() => this.setState({ devPop: true })}>
+          <span className="step">3</span>
+            <p className='projectName'>&lt;dev&gt;POP</p>
+            <p className='projectNameBorder'>_</p>
+            <p className='projectNameBorderCont'>_______________________________________</p>
           </div>
           <Modal
             show={this.state.devPop}
@@ -83,11 +81,11 @@ class Portfolio extends React.Component {
             <h4><a href='https://github.com/SurgeSpace/201Final' target='_blank'>GitHub</a></h4>
             </div>
           </Modal>
-          <div className='pound-puppy-alert card' onClick={() => this.setState({ poundPuppyAlert: true })}>
-            <h4>Pound Puppy Alert</h4>
-            <img className='ppa-pic' src={PPAPic1} />
-            <p>ES6 | MongoDB | Twilio API</p>
-            <p>____________________________</p>
+          <div className='pound-puppy-alert card2' onClick={() => this.setState({ poundPuppyAlert: true })}>
+          <span className="step">4</span>
+            <p className='projectName'>Pound Puppy Alert</p>
+            <p className='projectNameBorder'>_</p>
+            <p className='projectNameBorderContGr'>_______________________________________</p>
           </div>
           <Modal
             show={this.state.poundPuppyAlert}
