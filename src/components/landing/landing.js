@@ -28,7 +28,7 @@ class Landing extends React.Component {
               </div>
               </div>
               <div className="animateSubTxt">
-                <p>SOFTWARE DEVELOPER</p>
+                <p>SOFTWARE DEVELOPER</p> 
               </div>
               <div className="downArrow bounce">
                 <p>&darr;</p>
