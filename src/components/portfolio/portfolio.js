@@ -34,8 +34,9 @@ class Portfolio extends React.Component {
             <h2>Redeeming Soles</h2>
             <div>
             <img src={redeemingSolesPic} />
-            <p className='description'>Description of redeeming Soles project goes here</p>
             <h5>JavaScript | Node | React | Redux | Express | MongoDB | Mongoose | AWS S3 | webpack | Travis CI | Jest</h5>
+            <p className='description'>
+              The first iteration of a web application for the Redeeming Soles "No Kids Left on the Sidelines" project. This application is designed to track incoming sport shoes/cleats requests from coaches and youth sports leagues. This application aids in keeping an accurate inventory of sports shoes and prioritizes fulfillment of in-house requests.</p>
             </div>
             <div className='project-links'>
             <h4><a href='https://redeeming-soles-front.herokuapp.com/' target='_blank'>Redeeming Soles</a></h4>
@@ -54,7 +55,8 @@ class Portfolio extends React.Component {
             <h2>Regret Nothing</h2>
             <div>
             <img src={regretNothingPic} />
-            <p className='description'>Description of regret nothing project goes here.</p>
+            <h5>JavaScript | Node | Express | PostgreSQL </h5>
+            <p className='description'>This mobil friendly app allows users to search any restaurant in the Seattle area and append all health records to the results. Users are able to create and update reviews of the app itself, however, reviewing actual restaurants must be written directly on Yelp as per the user agreement.</p>
             </div>
             <div className='project-links'>
             <h4><a href='https://4betterorworse.github.io/' target='_blank'>4betterorworse.github</a></h4>
@@ -70,11 +72,11 @@ class Portfolio extends React.Component {
           <Modal
             show={this.state.devPop}
             handleClose={() => this.setState({ devPop: false })}>
-            <h2>Project</h2>
+            <h2>&#60;dev&#62;POP the Game</h2>
             <div>
             <img src={devPopPic} />
-            <p className='description'> Description of Devpop project</p>            
-            <h5>Description of technologies used</h5>
+            <h5>JavaScript | CSS3 | HTML5</h5>
+            <p className='description'> An interactive game that uses numbers and bubbles, the goal is to clear the board. Version 1.0 has 9 levels with increasing dificulties. Level 9 repeats until the user decides to quit.</p>
             </div>
             <div className='project-links'>
             <h4><a href='https://surgespace.github.io/201Final/' target='_blank'>devPop</a></h4>
@@ -93,8 +95,9 @@ class Portfolio extends React.Component {
             <h2>Pound Puppy Alert</h2>
             <div>
             <img src={PPAPic1} />
-            <p className='description'>Description of PPA goes here</p>
             <h5>NPM | Twilio API | JavaScript | Node | Express | MongoDB | Mongoose | Travis CI | Jest</h5>
+            <p className='description'>
+              This app provides the user with data of availability of dogs for adoption at a specified shelter. The user signs up for an account and creates a profile with their specific preferences for their desired type of dog, including their given location. The app is built with a RESTful HTTP server that utilizes basic authentication using Express. An account and login is created through basic and bearer authentication. Mongoose and MongoDB are used for the Schema and database functionality.</p>
             </div>
             <div className='project-links'>
             <h4><a href='https://github.com/puppyPound/puppy-pound' target='_blank'>GitHub</a></h4>

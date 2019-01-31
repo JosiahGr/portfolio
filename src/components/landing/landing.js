@@ -4,9 +4,6 @@ import Header from '../header/header';
 import AboutMe from '../about/about';
 import Portfolio from '../portfolio/portfolio';
 
-import gitHubImage from '../../assets/github-cat.png';
-import LinkedInImage from '../../assets/linkedIn.svg';
-
 import './landing.scss';
 
 class Landing extends React.Component {
@@ -19,7 +16,7 @@ class Landing extends React.Component {
             <div className="content">
               <div className="content__container">
                 <p className="content__container__text">
-                  Josiah
+                Josiah
                 </p>
                 
                 <ul className="content__container__list">
@@ -29,6 +26,10 @@ class Landing extends React.Component {
                   <li className="content__container__list__item">Developer</li>
                 </ul>
               </div>
+              </div>
+              <div className="animateSubTxt">
+                {/* <p id='enbiggen'>_____________</p> */}
+                <p>SOFTWARE DEVELOPER</p>
               </div>
               <div className="downArrow bounce">
                 <p>&darr;</p>
