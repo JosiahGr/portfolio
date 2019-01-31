@@ -4,9 +4,6 @@ import Header from '../header/header';
 import AboutMe from '../about/about';
 import Portfolio from '../portfolio/portfolio';
 
-import gitHubImage from '../../assets/github-cat.png';
-import LinkedInImage from '../../assets/linkedIn.svg';
-
 import './landing.scss';
 
 class Landing extends React.Component {
@@ -15,22 +12,42 @@ class Landing extends React.Component {
       <div className='landing-page'>
         <Header />
         <div className='main-section'>
-            <section id='intro'>
-              <h2>Josiah Green</h2>
-              <h3>Full Stack Software Developer</h3>
-              <h4>Shoreline, WA</h4>
-            </section>
-            <AboutMe />
+          <section id='intro'>
+            <div className="content">
+              <div className="content__container">
+                <p className="content__container__text">
+                Josiah
+                </p>
+                
+                <ul className="content__container__list">
+                  <li className="content__container__list__item">Green</li>
+                  <li className="content__container__list__item">Illustrator</li>
+                  <li className="content__container__list__item">Designer</li>
+                  <li className="content__container__list__item">Developer</li>
+                </ul>
+              </div>
+              </div>
+              <div className="animateSubTxt">
+                {/* <p id='enbiggen'>_____________</p> */}
+                <p>SOFTWARE DEVELOPER</p>
+              </div>
+              <div className="downArrow bounce">
+                <p>&darr;</p>
+            </div>
+          </section>
             <Portfolio />
+            {/* <AboutMe /> */}
             <section id='contact'>
-              <h2>Contact</h2>
-              <p className='divider'>______</p>
-              <h4>Contact me at</h4>
-              <h3><a href="mailto:josiahgreen90@gmail.com">josiahgreen90@gmail.com</a></h3>
-              <div className='contact-links'>
+              <h3>LET'S GET IN TOUCH.</h3>
+              <p className='divider'>___</p>
+              <h4>JOSIAH GREEN</h4>
+              <h5><a href="mailto:josiahgreen90@gmail.com">josiahgreen90@gmail.com</a></h5>
+              <h5><a href="https://github.com/josiahGr">GitHub</a></h5>
+              <h5><a href='https://www.linkedin.com/in/josiah-green/'>LinkedIn</a></h5>
+              {/* <div className='contact-links'>
               <a href='https://github.com/josiahGr' target='_blank' rel='noopener noreferrer'><img src={gitHubImage} /></a>
                 <a href='https://www.linkedin.com/in/josiah-green/' target='_blank' rel='noopener noreferrer'><LinkedInImage /></a>
-              </div>   
+              </div>    */}
             </section>
         </div>
         <footer className='footer'>
