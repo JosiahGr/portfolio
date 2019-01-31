@@ -28,7 +28,6 @@ class Landing extends React.Component {
               </div>
               </div>
               <div className="animateSubTxt">
-                {/* <p id='enbiggen'>_____________</p> */}
                 <p>SOFTWARE DEVELOPER</p>
               </div>
               <div className="downArrow bounce">
@@ -36,7 +35,7 @@ class Landing extends React.Component {
             </div>
           </section>
             <Portfolio />
-            {/* <AboutMe /> */}
+            <AboutMe />
             <section id='contact'>
               <h3>LET'S GET IN TOUCH.</h3>
               <p className='divider'>___</p>
