@@ -1,9 +1,14 @@
 @import '../../style/vars';
 
 #about {
-  background: white;
-  color: rgba(52, 92, 132, .9);
-  min-height: 350px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.755);
+  color: white;
+  min-height: 20em;
+
+  h2 {
+    margin-top: 1.25em;
+  }
   
   p {
     padding: 0 30px;
