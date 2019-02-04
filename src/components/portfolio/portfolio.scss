@@ -1,111 +1,111 @@
-// @import '../../style/vars';
+@import '../../style/vars';
 
-// #portfolio {
-//   color: $off-white;
-//   text-align: center;
+#portfolio {
+  color: $off-white;
+  text-align: center;
 
-//   span.step {
-//     position: absolute;
-//     font-family: Arial, Helvetica, sans-serif;
-//     background: #cccccc00;
-//     border: solid;
-//     border-color: #32CD32;;
-//     border-radius: 1.2em;
-//     -moz-border-radius: 1.2em;
-//     -webkit-border-radius: 1.2em;
-//     color: #32CD32;;
-//     display: inline-block;
-//     font-size: 3em;
-//     line-height: 1.6em;
-//     text-align: center;
-//     width: 1.6em; 
-//     bottom: 30%;
-//     left: 48%;
-//     transform: translate(-30%, -48%);
-//   }
+  span.step {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #cccccc00;
+    border: solid;
+    border-color: #32CD32;;
+    border-radius: 1.2em;
+    -moz-border-radius: 1.2em;
+    -webkit-border-radius: 1.2em;
+    color: #32CD32;;
+    display: inline-block;
+    font-size: 3em;
+    line-height: 1.6em;
+    text-align: center;
+    width: 1.6em; 
+    bottom: 30%;
+    left: 48%;
+    transform: translate(-30%, -48%);
+  }
 
-//   .projectName {
-//     position: absolute;
-//     float: left;
-//     font-size: 1.2em;
-//     bottom: 1.5em;
-//     left: 1.5em;
-//   }
+  .projectName {
+    position: absolute;
+    float: left;
+    font-size: 1.2em;
+    bottom: 1.5em;
+    left: 1.5em;
+  }
 
-//   .projectNameBorder {
-//     position: absolute;
-//     float: left;
-//     color: #32CD32;
-//     font-size: 3em;
-//     bottom: .3em;
-//     left: .6em;
-//   }
+  .projectNameBorder {
+    position: absolute;
+    float: left;
+    color: #32CD32;
+    font-size: 3em;
+    bottom: .3em;
+    left: .6em;
+  }
 
-//   .projectNameBorderCont {
-//     position: absolute;
-//     float: left;
-//     font-size: 1em;
-//     bottom: 1.1em;
-//     left: 3.8em;
-//   }
+  .projectNameBorderCont {
+    position: absolute;
+    float: left;
+    font-size: 1em;
+    bottom: 1.1em;
+    left: 3.8em;
+  }
 
-//   .projectNameBorderContGr {
-//     position: absolute;
-//         color: #32CD32;
-//     float: left;
-//     font-size: 1em;
-//     bottom: 1.1em;
-//     left: 3.8em;
-//   }
+  .projectNameBorderContGr {
+    position: absolute;
+        color: #32CD32;
+    float: left;
+    font-size: 1em;
+    bottom: 1.1em;
+    left: 3.8em;
+  }
 
-//   .card1 {
-//     position: relative;
-//     margin: 0;
-//     background-color: black;
-//     opacity: .75;
-//     width: 100%;
-//     height: 23em;
-//     text-align: center;
-//   }
+  .card1 {
+    position: relative;
+    margin: 0;
+    background-color: black;
+    opacity: .75;
+    width: 100%;
+    height: 23em;
+    text-align: center;
+  }
   
-//   .card1:hover {
-//     opacity: 1;
-//   }
+  .card1:hover {
+    opacity: 1;
+  }
 
-//   .card2 {
-//     position: relative;
-//     color: black;
-//     margin: 0;
-//     background-color: white;
-//     width: 100%;
-//     height: 23em;
-//     text-align: center;
-//   }
+  .card2 {
+    position: relative;
+    color: black;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    height: 23em;
+    text-align: center;
+  }
   
-//   .card2:hover {
-//     background-color: rgba(0, 0, 0, 0.111);
-//   }
+  .card2:hover {
+    background-color: rgba(0, 0, 0, 0.111);
+  }
 
-//   a:hover {
-//     color: $dark-blue;
-//   }
+  a:hover {
+    color: $dark-blue;
+  }
 
-//   h2 {
-//     color: $dark-slate;
-//   }
+  h2 {
+    color: $dark-slate;
+  }
 
-//   h4 {
-//     font-size: 1.5em;
-//     margin-bottom: 20px;
-//   }
+  h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
 
-//   p {
-//     margin: 10px 5px;
-//   }
+  p {
+    margin: 10px 5px;
+  }
 
-//   div {
-//     min-width: 20%;
-//     margin-left: 25px;
-//     margin-right: 25px;
-//   }
-// }
+  div {
+    min-width: 20%;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
