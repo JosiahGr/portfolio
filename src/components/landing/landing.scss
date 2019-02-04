@@ -1,8 +1,9 @@
 @import '../../style/vars';
 
-.landing {
-  width: 100%;
-}
+// .landing {
+//   width: 100%;
+//   height: 100%;
+// }
 section {
   width: 100%;
   overflow: auto;
@@ -21,53 +22,20 @@ section {
 }
 
 #intro {
-  background-image: linear-gradient(to bottom right, white, #32CD32, #32CD32);
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding-top: 20%;
-  height: 31em;
+  background: linear-gradient(to bottom right, white, #32CD32, #32CD32);
+  width: 100%;
+  height: 42em;
 
-  #description {
-    font-size: 1.95em;
-    color: white;
-  }
-
-  h4 {
-    line-height: .75 !important;
-    color: white;
-  }
-
-  @media (min-width: 660px) {
-    h2 {
-      margin: auto, auto;
-      font-size: 2em;
-    }
-  
-    h3 {
-      font-size: 1.5em;
-    }
-  
-    h4 {
-      font-size: 1.25em;
-      line-height: 25%;
+  @media screen and (min-height: 660px) {
+    #intro {
+      width: 100%;
+      height: 39em;
     }
   }
 
-  @media (min-width: 900px) {
-    h2 {
-      margin: auto, auto;
-      font-size: 2em;
-    }
-  
-    h3 {
-      font-size: 1.5em;
-    }
-  
-    h4 {
-      font-size: 1.25em;
-      line-height: 25%;
-    }
+  @media screen and (min-height: 900px) {
+    width: 100%;
+    height: 42em;
   }
 }
 
@@ -125,10 +93,11 @@ section {
   
 .content {
   position: absolute;
-  top: 50%;
-  left: 57%;
+  top: 49%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  overflow:hidden;
+  overflow: hidden;
+  margin-left: .9em;
   
   font-family: 'Lato', sans-serif;
   font-size: 35px;
@@ -155,15 +124,15 @@ section {
       list-style: none;
       
       -webkit-animation-name: change;
-      -webkit-animation-duration: 8s;
+      -webkit-animation-duration: 7s;
       -webkit-animation-iteration-count: 1;
       animation-name: change;
-      animation-duration: 8s;
+      animation-duration: 7s;
       animation-iteration-count: 1;
 
       &__item {
-        line-height:41px;
-        margin:0;
+        line-height: 41px;
+        margin: 0;
       }
     }
   }
@@ -217,18 +186,19 @@ section {
   49.98%,62.64% {transform:translate3d(0,-75%,0);}
 }
 
+// -------------------------------------------------
 // Sub text animation
+// -------------------------------------------------
 
 .animateSubTxt {
   position: absolute;
-  top: 54%;
+  top: 53.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  overflow:hidden;
+  overflow: hidden;
+  text-align: center;
   
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  line-height: 2px;
   color: white;
 
   opacity: 0;
@@ -257,8 +227,8 @@ to   { opacity: 1; }
 .downArrow {
   position: absolute;
   color: white;
-	bottom: 0%;
-  left: 50%;
+	top: 93%;
+  left: 49.5%;
 }
 .bounce {
   -moz-animation: bounce 2s;

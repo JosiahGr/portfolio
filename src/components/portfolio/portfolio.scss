@@ -19,8 +19,9 @@
     line-height: 1.6em;
     text-align: center;
     width: 1.6em; 
-    bottom: 40.5%;
-    left: 40.5%;
+    bottom: 30%;
+    left: 48%;
+    transform: translate(-30%, -48%);
   }
 
   .projectName {
@@ -82,7 +83,7 @@
   }
   
   .card2:hover {
-    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.111);
   }
 
   a:hover {
@@ -103,7 +104,6 @@
   }
 
   div {
-    display: inline-block;
     min-width: 20%;
     margin-left: 25px;
     margin-right: 25px;
