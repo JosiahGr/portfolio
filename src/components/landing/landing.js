@@ -11,8 +11,8 @@ class Landing extends React.Component {
     return (
       <div className='landing-page'>
         <Header />
-        <div className='main-section'>
-          <section id='intro'>
+          <section id='wrap'>
+            <div id='intro'></div>
             <div className="content">
               <div className="content__container">
                 <p className="content__container__text">
@@ -33,6 +33,7 @@ class Landing extends React.Component {
               <div className="downArrow bounce">
                 <p>&darr;</p>
             </div>
+            {/* </div> */}
           </section>
             <Portfolio />
             <AboutMe />
@@ -43,12 +44,7 @@ class Landing extends React.Component {
               <h5><a href="mailto:josiahgreen90@gmail.com">josiahgreen90@gmail.com</a></h5>
               <h5><a href="https://github.com/josiahGr">GitHub</a></h5>
               <h5><a href='https://www.linkedin.com/in/josiah-green/'>LinkedIn</a></h5>
-              {/* <div className='contact-links'>
-              <a href='https://github.com/josiahGr' target='_blank' rel='noopener noreferrer'><img src={gitHubImage} /></a>
-                <a href='https://www.linkedin.com/in/josiah-green/' target='_blank' rel='noopener noreferrer'><LinkedInImage /></a>
-              </div>    */}
             </section>
-        </div>
         <footer className='footer'>
         <AnchorLink href='#intro'><p>Back to top</p></AnchorLink>
         </footer>
