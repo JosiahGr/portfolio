@@ -14,7 +14,7 @@
     -moz-border-radius: 1.2em;
     -webkit-border-radius: 1.2em;
     color: #32CD32;;
-    display: inline-block;
+    // display: inline-block;
     font-size: 3em;
     line-height: 1.6em;
     text-align: center;
@@ -22,6 +22,11 @@
     bottom: 30%;
     left: 48%;
     transform: translate(-30%, -48%);
+  }
+
+  #description {
+    font-size: 1.95em;
+    color: white;
   }
 
   .projectName {

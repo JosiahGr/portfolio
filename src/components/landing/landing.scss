@@ -1,51 +1,28 @@
 @import '../../style/vars';
 
-.landing {
-  width: 100%;
-  height: 100%;
+.landing-page {
+  position: absolute;
 }
-section {
-  width: 100%;
-  overflow: auto;
 
-  #titleName {
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    font-size: 5rem;
-    margin-top: 1.5;
-    text-align: center;
-    color: white;
-  }
-
-  img {
-    height: 150px;
-  }
+#wrap {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 38.5em;
 }
 
 #intro {
-  background: linear-gradient(to bottom right, white, #32CD32, #32CD32);
-  width: 100%;
-  height: 42em;
-
-  #description {
-    font-size: 1.95em;
-    color: white;
-  }
+  background-image: linear-gradient(to bottom right, white, #32CD32, #32CD32);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   h4 {
     line-height: .75 !important;
     color: white;
-  }
-
-  @media screen and (min-height: 660px) {
-    #intro {
-      width: 100%;
-      height: 39em;
-    }
-  }
-
-  @media screen and (min-height: 900px) {
-    width: 100%;
-    height: 42em;
   }
 }
 
@@ -63,6 +40,10 @@ section {
       color: #32CD32;
     }
 }
+
+// ------------------------------------------
+// CSS for Contact Page
+// ------------------------------------------
 
 #contact {
   background: White;
@@ -240,6 +221,12 @@ to   { opacity: 1; }
 	top: 93%;
   left: 49.5%;
 }
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+
 .bounce {
   -moz-animation: bounce 2s;
   -moz-animation-delay: 8s;
