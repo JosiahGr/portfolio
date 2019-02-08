@@ -21,8 +21,9 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div>
-        <section id='portfolio'>
-          <div className='redeeming-soles card1' onClick={() => this.setState({ redeemingSoles: true })}>
+        <section>
+          <div id='portfolio'>
+          <div className='redeeming-soles card1 black' onClick={() => this.setState({ redeemingSoles: true })}>
             <span className="step">1</span>
             <p className='projectName'>Redeeming Soles</p>
             <p className='projectNameBorder'>_</p>
@@ -43,12 +44,12 @@ class Portfolio extends React.Component {
             <h4><a href='https://redeeming-soles-front.herokuapp.com/' target='_blank'>GitHub</a></h4>
             </div>
           </Modal>
-          <div className='regret-nothing card2' onClick={() => this.setState({ regretNothing: true })}>
+          <div className='regret-nothing card2 black' onClick={() => this.setState({ regretNothing: true })}>
           <span className="step">2</span>
             <p className='projectName'>Regret Nothing</p>
             <p className='projectNameBorder'>_</p>
             <p className='projectNameBorderContGr'>_______________________________________</p>
-          </div>_
+          </div>
           <Modal
             show={this.state.regretNothing}
             handleClose={() => this.setState({ regretNothing: false })}>
@@ -56,14 +57,14 @@ class Portfolio extends React.Component {
             <div>
             <img src={regretNothingPic} />
             <h5>JavaScript | Node | Express | PostgreSQL </h5>
-            <p className='description'>This mobil friendly app allows users to search any restaurant in the Seattle area and append all health records to the results. Users are able to create and update reviews of the app itself, however, reviewing actual restaurants must be written directly on Yelp as per the user agreement.</p>
+            <p className='description'>This mobile friendly app allows users to search any restaurant in the Seattle area and append all health records to the results. Users are able to create and update reviews of the app itself, however, reviewing actual restaurants must be written directly on Yelp as per the user agreement.</p>
             </div>
             <div className='project-links'>
             <h4><a href='https://4betterorworse.github.io/' target='_blank'>4betterorworse.github</a></h4>
             <h4><a href='https://github.com/4betterOrWorse/4betterOrWorse.github.io' target='_blank'>GitHub</a></h4>
             </div>
           </Modal>
-          <div className='devPop card1' onClick={() => this.setState({ devPop: true })}>
+          <div className='devPop card1 black' onClick={() => this.setState({ devPop: true })}>
           <span className="step">3</span>
             <p className='projectName'>&lt;dev&gt;POP</p>
             <p className='projectNameBorder'>_</p>
@@ -83,7 +84,7 @@ class Portfolio extends React.Component {
             <h4><a href='https://github.com/SurgeSpace/201Final' target='_blank'>GitHub</a></h4>
             </div>
           </Modal>
-          <div className='pound-puppy-alert card2' onClick={() => this.setState({ poundPuppyAlert: true })}>
+          <div className='pound-puppy-alert card2 black' onClick={() => this.setState({ poundPuppyAlert: true })}>
           <span className="step">4</span>
             <p className='projectName'>Pound Puppy Alert</p>
             <p className='projectNameBorder'>_</p>
@@ -103,6 +104,7 @@ class Portfolio extends React.Component {
             <h4><a href='https://github.com/puppyPound/puppy-pound' target='_blank'>GitHub</a></h4>
             </div>
           </Modal>
+          </div>
         </section>
       </div>
     );
