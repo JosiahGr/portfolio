@@ -14,7 +14,6 @@
     -moz-border-radius: 1.2em;
     -webkit-border-radius: 1.2em;
     color: #32CD32;;
-    display: inline-block;
     font-size: 3em;
     line-height: 1.6em;
     text-align: center;
@@ -56,39 +55,41 @@
 
   .projectNameBorderContGr {
     position: absolute;
-        color: #32CD32;
+    color: #32CD32;
     float: left;
     font-size: 1em;
     bottom: 1.1em;
     left: 3.8em;
   }
 
-  .card1 {
-    position: relative;
-    margin: 0;
+  .black {
     background-color: black;
     opacity: .75;
-    width: 100%;
+    color: white;
+  }
+
+  .black:hover {
+    opacity: 1;
+    background-color: white;
+    color: black;
+  }
+
+  .card1 {
+    position: relative;
+    float: left;
+    margin: 0;
+    width: 50%;
     height: 23em;
     text-align: center;
-  }
-  
-  .card1:hover {
-    opacity: 1;
   }
 
   .card2 {
     position: relative;
-    color: black;
+    float: right;
     margin: 0;
-    background-color: white;
-    width: 100%;
+    width: 50%;
     height: 23em;
     text-align: center;
-  }
-  
-  .card2:hover {
-    background-color: rgba(0, 0, 0, 0.111);
   }
 
   a:hover {
